@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Product</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="icon" href = "./images/icon.png" type="./images/x-icon">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="button"><i class="fa-solid fa-arrow-up"></i></button>
+    <section class="page-top">
+      <div class="container">
+        <div class="row row-grid">
+          <div class="page-top-contact">
+            <ul class="row-flex">
+              <li>
+                <i class="fa-solid fa-phone-volume"></i>
+                <a href="tel:0357462426">035 746 2426</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="#">thaiminh0612@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <header class="header">
+      <div class="header-top phone-hidden">
+        <div class="container">
+          <div class="row row-grid">
+            <div class="header-top-logo">
+              <a href="index.html"><img src="./images/logo-main-2.png" width="200px" height="60px" style="clip-path: polygon(23% 0, 100% 0%, 77% 100%, 0% 100%)" /></a>
+            </div>
+            <div class="header-top-search">
+              <input type="text" placeholder="Nhập sản phẩm cần tìm..." />
+              <button>
+                Tìm kiếm <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+            <div class="header-top-user_cart">
+              <ul class="row-flex">
+                <li><i class="fa-regular fa-user"></i>Tài khoản</li>
+                <li>
+                  <i class="fa-solid fa-cart-shopping cart-shopping"></i
+                  ><span>0</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom phone-hidden">
+        <div class="container">
+          <div class="row row-grid">
+            <div class="header-bottom-menubar">
+              <i class="fa-solid fa-bars"></i>
+              <span>Danh mục sản phẩm</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="header-bottom-menulist">
+              <ul class="row-flex">
+                <li><a href="product.html">Tất cả sản phẩm</a></li>
+                <li><a href="pcgamiing.html">PC Gaming</a></li>
+                <li><a href="display.html">Màn hình</a></li>
+                <li><a href="laptop.html">Laptop</a></li>
+                <li><a href="vanphong.html">PC Văn Phòng</a></li>
+                <li><a href="#">Khuyến Mãi</a></li>
+                <li><a href="#">Laptop MSI</a></li>
+                <li><a href="gioithieu.html">Giới Thiệu</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- responsive -->
+      <div class="header-phone">
+        <div class="header-phone-top">
+          <div class="container">
+            <div class="row-flex">
+              <img src="./images/logo.png" alt="" width="80px" />
+              <div class="header-phone-top-cart">
+                <i class="fa-solid fa-cart-shopping cart-shopping"></i
+                ><span>0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-phone-search row-grid">
+          <input type="text" placeholder="Nhập sản phẩm cần tìm..." />
+          <button>Tìm kiếm <i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="header-phone-bottom row-grid">
+          <ul>
+            <li>
+              <i class="fa fa-bars"></i>
+              <p>Danh Mục</p>
+            </li>
+            <li>
+              <i class="fa fa-gears"></i>
+              <p>Build PC</p>
+            </li>
+            <li>
+              <i class="fa fa-users"></i>
+              <p>Tài khoản</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- responsive -->
+    </header>
+    <section class="section">
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/slider-1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/slider-2.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/slider-5.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/slider-4.jpg" alt="" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <!-- product-head -->
+    <!-- <section class="product-head">
+      <div class="container">
+        <div class="hot-product-title row-grid">
+          <p>Danh Mục Nổi Bật</p>
+        </div>
+        <div class="head-product-items row-grid">
+          <div class="head-product-item">
+            <img src="./images/product-head-1.png" alt="" />
+          </div>
+          <div class="head-product-item">
+            <img src="./images/product-head-2.png" alt="" />
+          </div>
+          <div class="head-product-item">
+            <img src="./images/product-head-3.png" alt="" />
+          </div>
+          <div class="head-product-item">
+            <img src="./images/product-head-4.png" alt="" />
+          </div>
+          <div class="head-product-item">
+            <img src="./images/product-head-5.png" alt="" />
+          </div>
+          <div class="head-product-item">
+            <img src="./images/product-head-6.png" alt="" />
+          </div>
+          <div class="head-product-item">
+            <img src="./images/product-head-10.png" alt="" />
+          </div>
+          <div class="head-product-item">
+            <img src="./images/product-head-8.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- product-head -->
+    <!-- product -->
+    <section class="hot-product">
+      <div class="container">
+        <div class="hot-product-title row-grid">
+          <p>Laptop Gaming Nổi Bật</p>
+        </div>
+        <div class="hot-product-main row-grid">
+          <div class="hot-product-main-category">
+            <img src="./images/laptop-logo.jpg" alt="" />
+          </div>
+          <div class="hot-product-main-items row-grid">
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+              <img
+                width="100%"
+                src="./images/laptop-2.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>Laptop gaming ASUS ROG Flow X13 GV302XU MU223W </h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>3</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">680.000đ</p>
+                  <p class="sale-price">340.000đ <span>-50%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img
+                width="100%"
+                src="./images/laptop-1.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>Laptop gaming ASUS ROG Flow X13 GV302XU MU223W</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>2</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">800.000đ</p>
+                  <p class="sale-price">600.000đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img
+                width="100%"
+                src="./images/laptop-3.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>Laptop gaming ASUS ROG Flow X13 GV302XU MU223W </h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>18</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">990.000đ</p>
+                  <p class="sale-price">790.000đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img
+                width="100%"
+                src="./images/laptop-4.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>Laptop gaming ASUS ROG Flow X13 GV302XU MU223W </h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>0</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">500.000đ</p>
+                  <p class="sale-price">322.999đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hot-product">
+      <div class="container">
+        <div class="hot-product-title row-grid">
+          <p>PC Gaming Nổi Bật</p>
+        </div>
+        <div class="hot-product-main row-grid">
+          <div class="hot-product-main-category">
+            <img src="./images/hot-product-0.jpg" alt="" />
+          </div>
+          <div class="hot-product-main-items row-grid">
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+              <img width="100%" src="./images/hot-product-1.jpg" alt="" />
+              <div class="hot-product-main-item-content">
+                <h1>PC GVN Intel i5-12400F/ VGA RX 6600</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>3</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">27.990.000đ</p>
+                  <p class="sale-price">22.690.000đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img width="100%" src="./images/hot-product-2.jpg" alt="" />
+              <div class="hot-product-main-item-content">
+                <h1>PC GVN Intel i5-12400F/ VGA RX 6600</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>2</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">27.990.000đ</p>
+                  <p class="sale-price">22.690.000đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img width="100%" src="./images/hot-product-3.jpg" alt="" />
+              <div class="hot-product-main-item-content">
+                <h1>PC GVN Intel i5-12400F/ VGA RX 6600</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>18</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">27.990.000đ</p>
+                  <p class="sale-price">22.690.000đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img width="100%" src="./images/hot-product-34.jpg" alt="" />
+              <div class="hot-product-main-item-content">
+                <h1>PC GVN Intel i5-12400F/ VGA RX 6600</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>0</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">27.990.000đ</p>
+                  <p class="sale-price">22.690.000đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hot-product">
+      <div class="container">
+        <div class="hot-product-title row-grid">
+          <p>GAMING GEARS NỔI BẬT</p>
+        </div>
+        <div class="hot-product-main row-grid">
+          <div class="hot-product-main-category">
+            <img src="./images/hot-product-5.jpg" alt="" />
+          </div>
+          <div class="hot-product-main-items row-grid">
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+              <img width="100%" src="./images/hot-product-6.jpg" alt="" />
+              <div class="hot-product-main-item-content">
+                <h1>Chuột Gaming HyperWork Helios - Black</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>3</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">680.000đ</p>
+                  <p class="sale-price">340.000đ <span>-50%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img width="100%" src="./images/hot-product-7.jpg" alt="" />
+              <div class="hot-product-main-item-content">
+                <h1>Chuột Logitech G102 LightSync Black/h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>2</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">800.000đ</p>
+                  <p class="sale-price">600.000đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img width="100%" src="./images/hot-product-8.jpg" alt="" />
+              <div class="hot-product-main-item-content">
+                <h1>Chuột Logitech G102 LightSync Black</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>18</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">990.000đ</p>
+                  <p class="sale-price">790.000đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img width="100%" src="./images/hot-product-9.jpg" alt="" />
+              <div class="hot-product-main-item-content">
+                <h1>Chuột Logitech G102 LightSync Black</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>0</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">500.000đ</p>
+                  <p class="sale-price">322.999đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hot-product">
+      <div class="container">
+        <div class="hot-product-title row-grid">
+          <p>PC Gaming Nổi Bật</p>
+        </div>
+        <div class="hot-product-main row-grid">
+          <div class="hot-product-main-category">
+            <img src="./images/display_logo.jpg" alt="" />
+          </div>
+          <div class="hot-product-main-items row-grid">
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+              <img
+                width="100%"
+                src="./images/display-1.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>Màn hình Xiaomi A27i 27 inch FHD/IPS/100Hz/6ms/HDMI (ELA5345EU) </h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>3</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">680.000đ</p>
+                  <p class="sale-price">340.000đ <span>-50%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img
+                width="100%"
+                src="./images/display-2.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>Màn hình Xiaomi A27i 27 inch FHD/IPS/100Hz/6ms/HDMI (ELA5345EU) </h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>2</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">800.000đ</p>
+                  <p class="sale-price">600.000đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img
+                width="100%"
+                src="./images/display-3.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>Màn hình Xiaomi A27i 27 inch FHD/IPS/100Hz/6ms/HDMI (ELA5345EU) </h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>18</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">990.000đ</p>
+                  <p class="sale-price">790.000đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img
+                width="100%"
+                src="./images/display-4.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>Màn hình Xiaomi A27i 27 inch FHD/IPS/100Hz/6ms/HDMI (ELA5345EU) </h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>0</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">500.000đ</p>
+                  <p class="sale-price">322.999đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hot-product">
+      <div class="container">
+        <div class="hot-product-title row-grid">
+          <p>PC Gaming Nổi Bật</p>
+        </div>
+        <div class="hot-product-main row-grid">
+          <div class="hot-product-main-category">
+            <img src="./images/hot-product-5.jpg" alt="" />
+          </div>
+          <div class="hot-product-main-items row-grid">
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+              <img
+                width="100%"
+                src="./images/hot-product-gaming-1.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>PC GVN Intel i5-12400F/ VGA RX 6600</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>3</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">680.000đ</p>
+                  <p class="sale-price">340.000đ <span>-50%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img
+                width="100%"
+                src="./images/hot-product-gaming-2.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>PC GVN Intel i5-12400F/ VGA RX 6600</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>2</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">800.000đ</p>
+                  <p class="sale-price">600.000đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img
+                width="100%"
+                src="./images/hot-product-gaming-3.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>PC GVN Intel i5-12400F/ VGA RX 6600</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>18</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">990.000đ</p>
+                  <p class="sale-price">790.000đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img
+                width="100%"
+                src="./images/hot-product-gaming-7.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>PC GVN Intel i5-12400F/ VGA RX 6600</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>0</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">500.000đ</p>
+                  <p class="sale-price">322.999đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hot-product">
+      <div class="container">
+        <div class="hot-product-title row-grid">
+          <p>PC Gaming Nổi Bật</p>
+        </div>
+        <div class="hot-product-main row-grid">
+          <div class="hot-product-main-category">
+            <img src="./images/hot-product-5.jpg" alt="" />
+          </div>
+          <div class="hot-product-main-items row-grid">
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+              <img
+                width="100%"
+                src="./images/hot-product-gaming-5.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>PC GVN Intel i5-12400F/ VGA RX 6600</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>3</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">680.000đ</p>
+                  <p class="sale-price">340.000đ <span>-50%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img
+                width="100%"
+                src="./images/hot-product-gaming-2.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>PC GVN Intel i5-12400F/ VGA RX 6600</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>2</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">800.000đ</p>
+                  <p class="sale-price">600.000đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img
+                width="100%"
+                src="./images/hot-product-gaming-7.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>PC GVN Intel i5-12400F/ VGA RX 6600</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>18</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">990.000đ</p>
+                  <p class="sale-price">790.000đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+            <div class="hot-product-main-item">
+              <a href="item.html" class="item" target="_blank"></a>
+
+              <img
+                width="100%"
+                src="./images/hot-product-gaming-8.jpg"
+                alt=""
+              />
+              <div class="hot-product-main-item-content">
+                <h1>PC GVN Intel i5-12400F/ VGA RX 6600</h1>
+                <div class="hot-product-item-review">
+                  <div class="hot-product-item-review-star">
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                    <i class="fa-solid fa-star" style="color: yellow"></i>
+                  </div>
+                  <p><span>0</span> Đánh Giá</p>
+                </div>
+                <div class="hot-product-item-price">
+                  <p class="price">500.000đ</p>
+                  <p class="sale-price">322.999đ <span>-19%</span></p>
+                </div>
+              </div>
+              <div class="hot-product-main-item-tag">
+                <span>Best choice</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- brand-->
+    <section class="brand">
+      <div class="container row-flex">
+        <div class="brand-title row-grid">
+          <p>THƯƠNG HIỆU ĐỒNG HÀNH</p>
+        </div>
+        <div class="brand-items row-grid">
+          <div class="brand-item">
+            <img src="./images/banrd-1.png" alt="" />
+          </div>
+          <div class="brand-item">
+            <img
+              src="./images/brand-3.jpg"
+              alt=""
+              width="260px"
+              height="85px"
+            />
+          </div>
+          <div class="brand-item">
+            <img
+              src="./images/brand-11.jpg"
+              alt=""
+              width="260px"
+              height="85px"
+            />
+          </div>
+          <div class="brand-item">
+            <img
+              src="./images/brand-2.jpg"
+              alt=""
+              width="260px"
+              height="85px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- brand -->
+    <!-- follow -->
+    <section class="follow">
+      <div class="container row-flex">
+        <div class="follow-left">
+          <h2>Theo dõi chúng tôi tại</h2>
+          <div class="follow-left-icon">
+            <a
+              href="https://www.facebook.com/profile.php?id=100036427290092"
+              target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100036427290092"
+              target="_blank"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100036427290092"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100036427290092"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+        <div class="follow-right row-grid">
+          <input type="text" placeholder="Nhập email của bạn" />
+          <button>Đăng ký</button>
+        </div>
+      </div>
+    </section>
+    <!-- follow -->
+    <!-- contact -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-title">
+          <p>CONTACT ME</p>
+        </div>
+        <div class="footer-items row-flex">
+          <div class="footer-item-left">
+            <div class="footer-item-left-content">
+              <p>Email : <a href="#">thaiminh0612@gmail.com</a></p>
+              <p>Phone : <a href="#">035.746.2426</a></p>
+            </div>
+            <div class="footer-item-left-maps">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.7713121233633!2d106.66079867497871!3d10.752100359642087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ef74436980f%3A0x9cb541f2fbcc472!2zMjU1IMSQLiBUcuG6p24gSMawbmcgxJDhuqFvLCBQaMaw4budbmcgMTAsIFF14bqtbiA1LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1712596719044!5m2!1svi!2s"
+                width="300"
+                height="200"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="footer-item-center">
+            <h2>Danh Mục Menu</h2>
+            <div class="footer-item-center-content">
+              <p><a href="#">Xây dựng cấu hình PC</a></p>
+              <p><a href="#">PC Gaming</a></p>
+              <p><a href="#">Màn Hình</a></p>
+              <p><a href="#">Laptop Gaming</a></p>
+              <p><a href="#">Khuyến Mãi</a></p>
+              <p><a href="#">Laptop Văn Phòng</a></p>
+            </div>
+          </div>
+          <div class="footer-item-right">
+            <h2>Danh Mục Sản Phẩm</h2>
+            <div class="footer-item-center-content">
+              <p><a href="#">Danh Mục Nổi Bật</a></p>
+              <p><a href="#">PC Gaming Nổi Bật</a></p>
+              <p><a href="#">Gaming Gears Nổi Bật</a></p>
+              <p><a href="#">Các Thương Hiệu Đồng Hành</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- contact -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
